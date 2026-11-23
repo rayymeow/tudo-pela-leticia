@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#fffacd">
+  <meta name="description" content="Uma edição especial, feita à mão, para uma amizade que merece o mundo inteiro.">
+  <title>THE BESTIE ISSUE — 26.11.2026</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,500;6..96,600;6..96,700;6..96,800&family=DM+Mono:wght@400;500&family=Gochi+Hand&family=Space+Grotesk:wght@400;500;600;700&family=Syne:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="noise" aria-hidden="true"></div>
+  <div class="cursor-glints" id="cursor-glints" aria-hidden="true"></div>
+  <div class="topline">
+    <a class="wordmark" href="#top" id="top-link"><span class="wordmark-star">✳</span> little things / big love</a>
+    <div class="topline-center">A FRIENDSHIP SPECIAL <span>✦</span> NOV. 26, 2026</div>
+    <button class="index-open" id="open-index" type="button">INDEX <span>＋</span></button>
+  </div>
+
+  <main class="reader" id="top">
+    <div class="reader-meta">
+      <span class="meta-left"><i class="live-dot"></i> PERSONAL COPY · Nº 001</span>
+      <span class="meta-middle">PRINTED WITH AN UNREASONABLE AMOUNT OF AFFECTION</span>
+      <span class="meta-right" id="page-counter">01 / 09</span>
+    </div>
+
+    <div class="book" id="book" aria-live="polite">
+      <!-- 01 / COVER -->
+      <section class="page cover-page is-active" data-page="0" aria-label="Capa">
+        <div class="cover-grid"></div>
+        <div class="cover-topline"><span>THE FRIENDSHIP ISSUE</span><span>VOL. 04½ · EST. 05.05.22</span><span>100% YOURS</span></div>
+        <div class="cover-copy">
+          <p class="cover-kicker">a very important publication about a very important person</p>
+          <h1>THE<br><em>BESTIE</em><br>ISSUE<span class="title-dot">.</span></h1>
+          <div class="cover-subtitle">a whole universe<br>in one little book</div>
+        </div>
+        <div class="cover-collage" aria-label="Colagem de lembranças e referências">
+          <figure class="cover-photo photo-one">
+            <img src="https://i.pinimg.com/736x/d8/31/77/d83177cbbe7615d12ad22363f9da2850.jpg" alt="Finn e Jake juntos" loading="eager">
+            <figcaption>partners in crime</figcaption>
+          </figure>
+          <figure class="cover-photo photo-two">
+            <img src="https://i.pinimg.com/736x/a6/ee/00/a6ee003c4aea826b4ef9e64a2680eebe.jpg" alt="Tao e Alma em arte de Gokurakugai" loading="eager">
+            <figcaption>favorite universe</figcaption>
+          </figure>
+          <figure class="cover-photo photo-three">
+            <img src="https://i.pinimg.com/736x/a5/df/e5/a5dfe5b78e27c7ae2967c3960d821561.jpg" alt="Mingi e San do ATEEZ" loading="eager">
+            <figcaption>same energy</figcaption>
+          </figure>
+          <span class="cover-sticker sticker-saturn">SATURN<br>GIRL <b>✦</b></span>
+          <span class="cover-sticker sticker-star">★</span>
+          <span class="cover-sticker sticker-smile">made for<br>you ♡</span>
+        </div>
+        <div class="cover-footer"><span>26 NOVEMBER 2026</span><span>FOR MY FIRST OPTION, ALWAYS.</span><span>TURN ME ↘</span></div>
+        <button class="cover-start" type="button" data-goto="1">OPEN YOUR ISSUE <span>↗</span></button>
+        <div class="cover-ring" aria-hidden="true"></div>
+      </section>
+
+      <!-- 02 / ORBIT -->
+      <section class="page orbit-page" data-page="1" aria-label="Nossa órbita" hidden>
+        <div class="page-heading"><span class="section-tag">01 — OUR LITTLE UNIVERSE</span><span class="page-date">5 MAY 2022 → FOREVER</span></div>
+        <div class="orbit-layout">
+          <div class="orbit-copy">
+            <p class="eyebrow-script">somewhere along the way...</p>
+            <h2>you became<br>my <em>saturn.</em></h2>
+            <p class="orbit-text">Meu planeta favorito, meu lugar de voltar, a pessoa que eu procuro primeiro quando alguma coisa acontece — seja uma notícia enorme ou um simples olhar de um crush.</p>
+            <p class="orbit-text small">A gente se encontrou em 05 de maio de 2022. E eu ainda acho muito bonito que, entre tanta gente no mundo, eu tenha encontrado você.</p>
+            <div class="orbit-signature">same orbit, always <span>♡</span></div>
+          </div>
+          <div class="planet-scene">
+            <div class="starfield starfield-a">✦　·　✧<br>　　·　✦<br>✧　　·</div>
+            <div class="saturn" role="img" aria-label="Ilustração de Saturno em roxo e amarelo"><div class="saturn-ring"></div><div class="saturn-body"><span>♡</span></div></div>
+            <div class="orbit-label label-a">MY FAV<br>PLANET</div>
+            <div class="orbit-label label-b">YOU<br>YOU<br>YOU</div>
+            <div class="planet-caption">not just a planet.<br>my whole orbit.</div>
+          </div>
+        </div>
+        <div class="counter-strip">
+          <div class="counter-cell"><span class="counter-label">desde que a gente se conheceu</span><strong id="friendship-days">1.663</strong><span class="counter-unit">dias de amizade & contando</span></div>
+          <div class="counter-divider">✳</div>
+          <div class="counter-cell birthday-cell"><span class="counter-label">até o seu próximo aniversário</span><strong id="birthday-count">03 <small>dias</small></strong><span class="counter-unit" id="birthday-caption">26.11.2026 · o seu dia</span></div>
+        </div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>02</span></div>
+      </section>
+
+      <!-- 03 / CARTOON QUOTES -->
+      <section class="page quote-page" data-page="2" aria-label="Falas favoritas">
+        <div class="page-heading"><span class="section-tag">02 — DIALOGUE I CAN HEAR IN MY HEAD</span><span class="page-date">COMFORT CHARACTERS</span></div>
+        <div class="quote-intro"><h2>friendship, but<br><em>make it iconic.</em></h2><p>algumas falas são tão deles que parecem ter sido feitas pra ficar aqui.</p></div>
+        <div class="quote-grid">
+          <article class="quote-card q-dean">
+            <div class="quote-image"><img src="https://www.slashfilm.com/img/gallery/the-15-best-supernatural-episodes-ranked/larp-and-the-real-girl-1670515543.jpg" alt="Dean Winchester ao lado de Charlie Bradbury em Supernatural" loading="lazy"><span class="image-sticker">GEEK<br>ROYALTY</span></div>
+            <div class="quote-body"><span class="quote-source">SUPERNATURAL · 8x11</span><blockquote>“Out there in the real world, you are a hero.”</blockquote><span class="quote-who">— Dean, pra Charlie</span><p>e eu espero que você nunca esqueça o quanto é admirável, mesmo nos dias em que não consegue enxergar isso.</p></div>
+            <span class="card-number">01</span>
+          </article>
+          <article class="quote-card q-finn">
+            <div class="quote-image"><img src="https://i.pinimg.com/736x/d8/31/77/d83177cbbe7615d12ad22363f9da2850.jpg" alt="Finn e Jake juntos em Hora de Aventura" loading="lazy"></div>
+            <div class="quote-body"><span class="quote-source">ADVENTURE TIME · 2x02</span><blockquote>“Please, Jake! You're my best friend!”</blockquote><span class="quote-who">— Finn</span><p>com você, até a coisa mais boba vira uma história que eu vou contar rindo depois.</p></div>
+            <span class="card-number">02</span>
+          </article>
+          <article class="quote-card q-gumball">
+            <div class="quote-image"><img src="https://m.media-amazon.com/images/M/MV5BMTkxODU5NDgyMV5BMl5BanBnXkFtZTgwMDIwMTgzMjE%40._V1_FMjpg_UX1000_.jpg" alt="Gumball e Darwin em O Incrível Mundo de Gumball" loading="lazy"></div>
+            <div class="quote-body"><span class="quote-source">THE AMAZING WORLD OF GUMBALL · “THE THIRD”</span><blockquote>“Best friends?”<br>“Forever!”</blockquote><span class="quote-who">— Darwin & Gumball</span><p>você é minha pessoa pra dividir a piada antes mesmo de explicar a piada.</p></div>
+            <span class="card-number">03</span>
+          </article>
+          <article class="quote-card q-raven">
+            <div class="quote-image"><img src="https://i0.wp.com/vignette1.wikia.nocookie.net/ttff/images/a/a3/Starfire-and-Raven-teen-titans-9734865-550-450.jpg" alt="Ravena e Estelar em Jovens Titãs" loading="lazy"></div>
+            <div class="quote-body"><span class="quote-source">TEEN TITANS · “HOW LONG IS FOREVER?”</span><blockquote>“Raven? It is Starfire, your friend.”</blockquote><span class="quote-who">— Starfire</span><p>obrigada por ficar, até quando meu caos chega sem legenda. você nunca precisou ser igual a mim pra me entender.</p></div>
+            <span class="card-number">04</span>
+          </article>
+        </div>
+        <div class="quote-footer-note">THESE LINES ARE REAL. THE DEDICATIONS ARE ALL MINE. <span>✳</span></div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>03</span></div>
+      </section>
+
+      <!-- 04 / WINCHESTERS + KITTENS -->
+      <section class="page brothers-page" data-page="3" aria-label="Irmãos e gatinhos">
+        <div class="page-heading"><span class="section-tag">03 — THE ONES WHO STAY</span><span class="page-date">BROTHERHOOD / SOFTNESS</span></div>
+        <div class="brothers-feature">
+          <div class="brothers-photo"><img src="https://dualpersonalities.files.wordpress.com/2013/05/dean-and-sam.jpeg" alt="Sam e Dean Winchester juntos" loading="lazy"><span class="photo-caption">THE WINCHESTERS · ALWAYS TWO</span><span class="photo-scribble">no one gets left behind</span></div>
+          <div class="brothers-note">
+            <p class="eyebrow-script">family business</p>
+            <h2>it's always<br>been <em>you & me.</em></h2>
+            <div class="dialogue-bubbles">
+              <p><b>SAM</b> “Don't leave me. I can't do this alone.”</p>
+              <p><b>DEAN</b> “I'm not leaving you.”</p>
+            </div>
+            <p class="dedication-large">E no meu mundo, você também é aquela pessoa que eu quero do meu lado em todas as versões da vida. Minha primeira opção de companhia, de conversa, de contar novidade, de rir e até de surtar.</p>
+            <span class="pen-note">you are my person. ♡</span>
+          </div>
+        </div>
+        <div class="cat-strip">
+          <div class="cat-photo"><img src="https://diamondpaintingforyou.com/cdn/shop/files/53866089734_a9bc8368db_b_a061fd42-b6cc-4043-b2e7-d1e14b05c8c4.jpg?v=1722270842" alt="Dois gatinhos abraçados" loading="lazy"></div>
+          <div class="cat-message"><span class="cat-tag">A VERY SCIENTIFIC STUDY</span><h3>duas criaturas<br>que escolheram ficar juntinhas.</h3><p>é esse tipo de paz que eu desejo pra você. e, quando o mundo pesar, espero ser um cantinho seguro assim também.</p></div>
+          <span class="cat-stamp">certified<br>babies</span>
+        </div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>04</span></div>
+      </section>
+
+      <!-- 05 / GOKURAKUGAI -->
+      <section class="page goku-page" data-page="4" aria-label="Dedicatória Gokurakugai">
+        <div class="page-heading"><span class="section-tag">04 — A PAGE JUST FOR YOUR WORLD</span><span class="page-date">GOKURAKUGAI EDITION</span></div>
+        <div class="goku-layout">
+          <div class="goku-art"><img src="https://i.pinimg.com/736x/a6/ee/00/a6ee003c4aea826b4ef9e64a2680eebe.jpg" alt="Tao e Alma em uma ilustração de Gokurakugai" loading="lazy"><span class="goku-art-label">TAO × ALMA<br>YOUR PAGE</span><span class="goku-doodle">✳</span></div>
+          <div class="goku-copy">
+            <p class="eyebrow-script">a little dedication</p>
+            <h2>loyalty looks<br>good on <em>you.</em></h2>
+            <p>Tem uma coisa que eu queria que você soubesse: eu reconheço a sua lealdade em tudo que você faz, mas principalmente na maneira como você esteve aqui por mim.</p>
+            <p>Você não é só alguém com quem eu divido momentos bons. É alguém que ficou quando eu estava surtando, que ouviu meus dramas mais absurdos e nunca fez eu me sentir um peso por sentir demais.</p>
+            <p>Eu espero conseguir ser pra você uma presença tão boa quanto você é pra mim. Sem precisar de grandes discursos. Só ficando, escolhendo, torcendo e aparecendo.</p>
+            <div class="goku-sign">com todo o carinho do mundo, <span>♡</span></div>
+          </div>
+        </div>
+        <div class="goku-bottom-sticker">NOTHING BEATS<br>HAVING YOUR BACK.</div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>05</span></div>
+      </section>
+
+      <!-- 06 / MANGA -->
+      <section class="page manga-page" data-page="5" aria-label="Dedicatórias dos mangás">
+        <div class="page-heading"><span class="section-tag">05 — SOFT THINGS, LOUD FEELINGS</span><span class="page-date">MANGA CORNER</span></div>
+        <h2 class="manga-title">the things you love<br><em>deserve their own page.</em></h2>
+        <div class="manga-spread">
+          <article class="manga-piece aya-piece">
+            <div class="manga-art"><img src="https://dynasty-scans.com/system/images_images/000/032/027/full/IMG_7739.webp" alt="Aya e Mitsuki de The Guy She Was Interested in Wasn't a Guy at All" loading="lazy"><span class="manga-flag">SIDE A ♫</span></div>
+            <div class="manga-text"><h3>AYA × MITSUKI</h3><p>Pra que nunca te falte música, nem coragem pra gostar das coisas com essa intensidade tão sua. Eu adoro ver seus olhos brilharem quando você encontra algo que ama.</p></div>
+          </article>
+          <article class="manga-piece veil-piece">
+            <div class="manga-art"><img src="https://media.manga-passion.de/volume/cover/2026/0227/1003/fe18319f65cd955b4078db79d781dbad.jpg" alt="Arte de Veil, de Kotteri" loading="lazy"><span class="manga-flag">SIDE B ♡</span></div>
+            <div class="manga-text"><h3>VEIL</h3><p>Que a vida te encontre com delicadeza. Que você receba cuidado sem precisar pedir, gentileza sem precisar explicar e companhia que respeite seu tempo.</p></div>
+          </article>
+        </div>
+        <div class="manga-bottom-note"><span>YOUR TASTE IS IMMACULATE.</span><span>KEEP LOVING THINGS LOUDLY. ✦</span></div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>06</span></div>
+      </section>
+
+      <!-- 07 / MORE PAIRS -->
+      <section class="page extra-page" data-page="6" aria-label="Mais referências especiais">
+        <div class="page-heading"><span class="section-tag">06 — AN EXTRA PAGE BECAUSE ONE WASN'T ENOUGH</span><span class="page-date">MORE OF YOUR UNIVERSE</span></div>
+        <h2 class="extra-title">you make the world<br><em>more interesting.</em></h2>
+        <div class="extra-grid">
+          <article class="extra-card mingi-card">
+            <div class="extra-img"><img src="https://i.pinimg.com/736x/a5/df/e5/a5dfe5b78e27c7ae2967c3960d821561.jpg" alt="Mingi e San do ATEEZ" loading="lazy"></div>
+            <div class="extra-copy"><span>ATEEZ · MINGI & SAN</span><p>Sua risada tem o mesmo efeito de uma música boa no volume alto: muda o clima inteiro. Nunca diminua essa parte tão sua.</p></div>
+            <span class="extra-id">A</span>
+          </article>
+          <article class="extra-card arcane-card">
+            <div class="extra-img"><img src="https://cdn.exrode.com/u/e/2022/11/arcane-rocznica-lol.jpg" alt="Vi de Arcane" loading="lazy"></div>
+            <div class="extra-copy"><span>ARCANE · JINX & VI</span><p>Você merece vínculos que não te peçam pra ser menor, mais quieta ou menos você. Que te abracem inteira.</p></div>
+            <span class="extra-id">B</span>
+          </article>
+          <article class="extra-card onepiece-card">
+            <div class="extra-img"><img src="https://mrwallpaper.com/images/hd/robin-and-nami-one-piece-4u8njt3lsugqw1jl.jpg" alt="Boa Hancock em One Piece, na arte relacionada a Nami e Boa" loading="lazy"></div>
+            <div class="extra-copy"><span>ONE PIECE · NAMI & BOA</span><p>Que você nunca precise pedir desculpas por querer muito, sonhar alto e ocupar todo o espaço que merece.</p></div>
+            <span class="extra-id">C</span>
+          </article>
+        </div>
+        <div class="extra-footer">A SMALL REMINDER: YOU ARE ALLOWED TO TAKE UP SPACE. <b>✳</b></div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>07</span></div>
+      </section>
+
+      <!-- 08 / ARGENTINA + LITTLE THINGS -->
+      <section class="page memories-page" data-page="7" aria-label="Conquistas e pequenas coisas">
+        <div class="page-heading"><span class="section-tag">07 — THINGS I HOPE YOU NEVER FORGET</span><span class="page-date">LITTLE BIG MOMENTS</span></div>
+        <div class="argentina-card">
+          <div class="argentina-art"><div class="argentina-sun">☼</div><span>YOU<br>DID<br>THAT!</span><div class="argentina-ticket">BOARDING PASS<br><b>ARGENTINA</b><br>ONE DREAM CLOSER ✈</div></div>
+          <div class="argentina-copy"><p class="eyebrow-script">still one of my favorite memories</p><h2>your wins<br>feel like <em>mine.</em></h2><p>Quando você foi viajar pra Argentina, eu chorei de felicidade por você. Não foi exagero: eu fiquei genuinamente feliz vendo você conquistar uma coisa que merecia tanto.</p><p>Eu quero que você conheça o mundo inteiro. Quero estar aqui pra comemorar cada passagem, cada sonho realizado, cada novidade que você contar empolgada.</p><span class="argentina-sign">the world is waiting for you ♡</span></div>
+        </div>
+        <div class="little-things">
+          <div class="little-header">THE THINGS THAT ARE SO YOU <span>✦</span></div>
+          <div class="little-grid">
+            <p><b>01 /</b> sua risada contagiante, que começa numa pessoa e termina em todo mundo.</p>
+            <p><b>02 /</b> você ouvindo meus surtos por amores que não valiam nem a bateria do celular.</p>
+            <p><b>03 /</b> você comemorando comigo até um simples olhar de um crush, como se fosse notícia mundial.</p>
+            <p><b>04 /</b> a forma como fica feliz pelas minhas conquistas — inclusive as pequenas — sem nunca fazer parecer pouco.</p>
+          </div>
+        </div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE</span><span>08</span></div>
+      </section>
+
+      <!-- 09 / LETTER -->
+      <section class="page letter-page" data-page="8" aria-label="Carta de aniversário">
+        <div class="page-heading"><span class="section-tag">08 — ONE LAST THING</span><span class="page-date">DO NOT OPEN WITHOUT A SMILE</span></div>
+        <div class="letter-layout">
+          <div class="letter-art">
+            <div class="envelope" id="envelope">
+              <div class="envelope-back"></div><div class="letter-paper"><span>to: my favorite person</span><b>you deserve<br>the whole<br>universe.</b><i>♡</i></div><div class="envelope-front"></div><div class="envelope-flap"></div><div class="wax-seal">✳</div>
+            </div>
+            <button class="open-letter" id="open-letter" type="button">OPEN THE LETTER <span>↗</span></button>
+            <span class="letter-doodle doodle-a">✦</span><span class="letter-doodle doodle-b">♡</span><span class="letter-doodle doodle-c">✧</span>
+          </div>
+          <div class="letter-copy">
+            <p class="eyebrow-script">26 november, 2026</p>
+            <h2>happy birthday,<br><em>my saturn.</em></h2>
+            <div class="letter-content" id="letter-content" hidden>
+              <p>Eu queria conseguir colocar em palavras o tamanho do carinho que eu tenho por você, mas parece que sempre fica faltando alguma coisa.</p>
+              <p>Você é minha primeira opção. A pessoa pra quem eu quero mandar a mensagem primeiro, contar a novidade primeiro, dividir a alegria e também o caos. Você me viu comemorar coisas minúsculas, me ouviu repetir os mesmos assuntos mil vezes e, mesmo assim, continuou aqui.</p>
+              <p>Obrigada por ser tão leal, por torcer por mim, por rir comigo e por deixar eu torcer por você. Eu espero que esse novo ano te devolva um pouco de toda a coisa boa que você espalha por aí.</p>
+              <p>Que você viaje, conquiste, erre, tente de novo, conheça lugares lindos, dê suas gargalhadas mais altas e tenha mil motivos pra se orgulhar de si mesma.</p>
+              <p>Eu te amo muito. Feliz vida. E obrigada por ter cruzado a minha em maio de 2022. ♡</p>
+              <span class="letter-sign">com amor, sempre.</span>
+            </div>
+            <p class="letter-prompt" id="letter-prompt">Tem mais uma coisinha guardada aqui. Abre o envelope. ♡</p>
+          </div>
+        </div>
+        <div class="final-stamp">YOU ARE<br>LOVED. LOVED.<br>LOVED.</div>
+        <div class="page-bottom"><span>THE BESTIE ISSUE · END OF ISSUE</span><span>09</span></div>
+      </section>
+    </div>
+
+    <div class="reader-controls">
+      <button class="turn-button previous" id="previous-page" type="button" disabled aria-label="Página anterior"><span>←</span> BACK</button>
+      <div class="page-dots" id="page-dots" aria-label="Escolher página">
+        <button class="dot active" type="button" data-goto="0" aria-label="Página 1"></button>
+        <button class="dot" type="button" data-goto="1" aria-label="Página 2"></button>
+        <button class="dot" type="button" data-goto="2" aria-label="Página 3"></button>
+        <button class="dot" type="button" data-goto="3" aria-label="Página 4"></button>
+        <button class="dot" type="button" data-goto="4" aria-label="Página 5"></button>
+        <button class="dot" type="button" data-goto="5" aria-label="Página 6"></button>
+        <button class="dot" type="button" data-goto="6" aria-label="Página 7"></button>
+        <button class="dot" type="button" data-goto="7" aria-label="Página 8"></button>
+        <button class="dot" type="button" data-goto="8" aria-label="Página 9"></button>
+      </div>
+      <button class="turn-button next" id="next-page" type="button">NEXT <span>→</span></button>
+    </div>
+    <div class="keyboard-hint">PRO TIP: USE ← → TO TURN THE PAGES <span>✦</span> TAP THE LITTLE STICKERS</div>
+  </main>
+
+  <div class="index-modal" id="index-modal" aria-hidden="true">
+    <div class="index-panel" role="dialog" aria-modal="true" aria-labelledby="index-title">
+      <button class="index-close" id="close-index" type="button" aria-label="Fechar índice">×</button>
+      <p class="eyebrow-script">a quick little map</p><h2 id="index-title">inside this<br><em>issue.</em></h2>
+      <button data-goto="0"><span>00</span> the cover <b>↗</b></button>
+      <button data-goto="1"><span>01</span> our orbit <b>↗</b></button>
+      <button data-goto="2"><span>02</span> comfort characters <b>↗</b></button>
+      <button data-goto="3"><span>03</span> the ones who stay <b>↗</b></button>
+      <button data-goto="4"><span>04</span> Gokurakugai dedication <b>↗</b></button>
+      <button data-goto="5"><span>05</span> manga corner <b>↗</b></button>
+      <button data-goto="6"><span>06</span> more of your universe <b>↗</b></button>
+      <button data-goto="7"><span>07</span> little big moments <b>↗</b></button>
+      <button data-goto="8"><span>08</span> the letter <b>↗</b></button>
+      <small>made with an infinite amount of affection.</small>
+    </div>
+  </div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <footer class="site-foot"><span>COLLECTED WITH LOVE · 2026</span><span>NOTHING HERE IS RANDOM. EVERY LITTLE THING MADE ME THINK OF YOU.</span><a href="#top">BACK TO COVER ↑</a></footer>
+</body>
+</html>
